@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify-Music Player</title>
+</head>
+<body>
+    <div class ="banner">
+        <div class="left-banner">
+            <img class="left-img"src="images\image.png" alt="left-banner">
+            <div class="heading">
+              <h1>Deep focus</h1>
+              <p1>keep your focus and enjoy serenity</p1>
+        </div>
+    </div>
+    </div>
+     <div class="main-section">
+        <div class="controls" onclick="playaudio()" id="play-pause"><img class="play-button"src="images\play-button.svg" alt="play-image" ></div>
+        <audio id="song"></audio>
+        <table>
+            <thead>
+                <th class="song-number">#</th>
+                <th class="song-title">Title</th>
+                <th class ="song-artist">Artist</th>
+                <th class="song-duration">Duration</th>
+            </thead>
+            <tr id="song1" onclick="playAll(1)">
+                <td>1</td>
+                <td>Ammaadi</td>
+                <td>shakthisree,kala Bhairava</td>
+                <td>3:39</td>
+            </tr>
+            <tr id="song2" onclick="playAll(2)">
+                <td>2</td>
+                <td>chilaka</td>
+                <td>vijai,lakshmi meghana</td>
+                <td>6:06</td>
+            </tr>
+            <tr id="song3" onclick="playAll(3)">
+                <td>3</td>
+                <td>Teliyade</td>
+                <td>kasyap,lipsika</td>
+                <td>4:01</td>
+            </tr>
+            <tr id="song4" onclick="playAll(4)">
+                <td>4</td>
+                <td>vellake</td>
+                <td>Bharatt-saurabh</td>
+                <td>3:37</td>
+            </tr>
+            <tr id="song5" onclick="playAll(5)">
+                <td>5</td>
+                <td>oh pilla</td>
+                <td>Haricharan</td>
+                <td>5:08</td>
+            </tr>
+            <tr id="song6" onclick="playAll(6)">
+                <td>6</td>
+                <td>Neeve</td>
+                <td>phani kalyan</td>
+                <td>5:07</td>
+            </tr>
+            <tr id="song7" onclick="playAll(7)">
+                <td>7</td>
+                <td>padigaapulo</td>
+                <td>priyesh mothukuri</td>
+                <td>3:15</td>
+            </tr>
+            <tr id="song8" onclick="playAll(8)">
+                <td>8</td>
+                <td>oh my baby</td>
+                <td>Thaman S</td>
+                <td>2:36</td>
+            </tr>
+            <tr id="song9" onclick="playAll(9)">
+                <td>9</td>
+                <td>Arere yekkada</td>
+                <td>Naresh lyer</td>
+                <td>3:56</td>
+            </tr>
+            <tr id="song10" onclick="playAll(10)">
+                <td>10</td>
+                <td>rang de</td>
+                <td>Mickey j.Meyer</td>
+                <td>4:01</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
